@@ -13,10 +13,10 @@ int main(){
 
     for (int i = 1; i <= num; i++)
     {
-        c = a + b; // 0 + 1 = 1
-        printf("%d,", c);//1
-        b = a;//1
-        a = c; //0
+        c = a + b; 
+        printf("%d,", c);
+        b = a;
+        a = c; 
     }
     
 }
